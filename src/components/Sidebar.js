@@ -8,12 +8,14 @@ export default function SideBar({ fullMenu }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
     <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
-      <h1 id="logo">
-      <span className="icon fa-gem minor style4"></span>
-      {/* <span className="icon fa-lock style3"></span> */}
-        <Link to="/">&nbsp;NYU GWC</Link>
+      <h3 id="logo">
+      <button data-text="Awesome" id="specialButton">
+    <span class="actual-text">&nbsp;NYU GWC&nbsp;</span>
+    <span class="hover-text" aria-hidden="true"><Link to="/">&nbsp;NYU GWC&nbsp;</Link></span>
+</button>
+        {/* <Link to="/">&nbsp;NYU GWC</Link> */}
         {/* <span style={{display: 'flex'}} className="icon fa-gem minor style5"></span> */}
-      </h1>
+      </h3>
       <div className={`${headerOpen ? 'is-menu-visible' : ' '}`}>
         <Nav onMenuToggle={() => toggleHeader(!headerOpen)} />
       </div>
