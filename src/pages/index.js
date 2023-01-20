@@ -42,7 +42,7 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper style1 special">
       <div className="inner">
-        <header className="major">
+        <header className="major" style={{paddingTop: 2 + 'em'}}>
           <h2>
           What are College Loops?
           </h2>
