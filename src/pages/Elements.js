@@ -7,14 +7,15 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
-import banner from '../assets/images/banner.jpg';
+// import banner from '../assets/images/banner.jpg';
+import banner from '../assets/images/arc.jpeg';
 const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
 			<h2>Elements</h2>
 			<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
 		</header>
-		<section className="wrapper style5">
+		<section className="wrapper style1">
 			<div className="inner">
 
 				<section>
@@ -56,6 +57,7 @@ const IndexPage = () => <Layout>
 					</code>
 					</pre>
 				</section>
+
 
 				<section>
 					<h4>Lists</h4>

@@ -1,6 +1,8 @@
 {
   "name": "gatsby-starter-spectral",
+  "homepage": "https://ebootehsaz.github.io/gwc",
   "version": "0.0.2",
+
   "description": "Gatsby.js V4 starter template based on Spectral by HTML5 UP",
   "repository": {
     "type": "git",
@@ -28,7 +30,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
-    "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",
@@ -47,6 +50,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/anubhavsrivastava/gatsby-starter-spectral/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-spectral#readme"
+  }
 }

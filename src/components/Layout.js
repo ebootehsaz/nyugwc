@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
+
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
@@ -14,6 +15,7 @@ class Layout extends Component {
       isPreloaded: true,
     };
   }
+  
 
   componentDidMount() {
     this.timeoutId = setTimeout(() => {
@@ -46,7 +48,7 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
+                { name: 'description', content: 'GWC' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
@@ -77,3 +79,4 @@ Layout.propTypes = {
 };
 
 export default Layout;
+
