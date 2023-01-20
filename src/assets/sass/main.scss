@@ -2060,3 +2060,18 @@
 	#setMaxWidth1 {
 		max-width: 25em;
 	}
+
+	.icon, Link {
+		
+		display: inline-block;
+	}
+
+	#logo {
+		display: flex;
+		align-items: center;
+	}
+
+	.icon {
+		float: left;
+	}
+	
