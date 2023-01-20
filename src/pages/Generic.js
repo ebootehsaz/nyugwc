@@ -3,13 +3,14 @@ import React from 'react';
 import Layout from '../components/Layout';
 // import Scroll from '../components/Scroll';
 
-const pic1 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/bridgette.jpg';
-const pic2 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/shanaya.jpg';
-const pic3 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/isha.jpg';
-const pic4 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/dariana.jpg';
-const pic5 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/tanmaya.jpg';
-const pic6 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/christina.jpg';
-const pic7 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/shivani.jpg';
+import pic1 from '../assets/images/bridgette.jpg';
+import pic2 from '../assets/images/shanaya.jpg';
+import pic3 from '../assets/images/isha.jpg';
+import pic4 from '../assets/images/dariana.jpg';
+import pic5 from '../assets/images/tanmaya.jpg';
+import pic6 from '../assets/images/christina.jpg';
+import pic7 from '../assets/images/shivani.jpg';
+
 
 const IndexPage = () => (
   <Layout fullMenu>
