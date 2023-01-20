@@ -15,21 +15,21 @@
 
 // Breakpoints.
 
-	// @include breakpoints((
-	// 	xlarge:   ( 1281px,  1680px ),
-	// 	large:    ( 981px,   1280px ),
-	// 	medium:   ( 737px,   980px  ),
-	// 	small:    ( 481px,   736px  ),
-	// 	xsmall:   ( null,    480px  ),
-	// ));
-
 	@include breakpoints((
 		xlarge:   ( 1281px,  1680px ),
-		large:    ( 400px,   400px ),
-		medium:   ( 300px,   300px  ),
-		small:    ( 200px,   200px  ),
+		large:    ( 981px,   1280px ),
+		medium:   ( 737px,   980px  ),
+		small:    ( 481px,   736px  ),
 		xsmall:   ( null,    480px  ),
 	));
+
+	// @include breakpoints((
+	// 	xlarge:   ( 1281px,  1680px ),
+	// 	large:    ( 300px,   300px ),
+	// 	medium:   ( 200px,   200px  ),
+	// 	small:    ( 100px,   100px  ),
+	// 	xsmall:   ( null,    180px  ),
+	// ));
 
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
