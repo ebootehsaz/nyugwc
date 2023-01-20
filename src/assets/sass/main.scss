@@ -336,8 +336,8 @@
 			top: -0.25em;
 		}
 
-		h2 + p {
-		}
+		// h2 + p {
+		// }
 
 		h3 + p {
 			font-size: 1.1em;
@@ -452,6 +452,7 @@
 	}
 
 	input[type="checkbox"],
+	/*
 	input[type="radio"], {
 		@include vendor('appearance', 'none');
 		display: block;
@@ -501,7 +502,7 @@
 				box-shadow: 0 0 0 2px _palette(accent1, bg);
 			}
 		}
-	}
+	} */
 
 	input[type="checkbox"] {
 		& + label {
@@ -1156,7 +1157,7 @@
 				padding-left: 30px;
 				padding-right: 30px;
 			}
-			margin-top: 50px;
+			padding-top: 100px;
 			
 
 
@@ -1245,22 +1246,22 @@
 			}
 
 			input[type="checkbox"],
-			input[type="radio"], {
-				& + label {
-					color: _palette($p, fg);
+			// input[type="radio"], {
+			// 	& + label {
+			// 		color: _palette($p, fg);
 
-					&:before {
-						background: _palette($p, border-bg);
-					}
-				}
+			// 		&:before {
+			// 			background: _palette($p, border-bg);
+			// 		}
+			// 	}
 
-				&:checked + label {
-					&:before {
-						background: _palette($p, fg-bold);
-						color: _palette($p, bg);
-					}
-				}
-			}
+			// 	&:checked + label {
+			// 		&:before {
+			// 			background: _palette($p, fg-bold);
+			// 			color: _palette($p, bg);
+			// 		}
+			// 	}
+			// }
 
 			::-webkit-input-placeholder {
 				color: _palette($p, fg-light) !important;
@@ -1430,6 +1431,7 @@
 			display: none;
 			height: 100%;
 			left: 0;
+			// right: 0;
 			position: fixed;
 			top: 0;
 			width: 100%;
@@ -1496,7 +1498,7 @@
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			// vertical-align: middle;
 			width: 7em;
 		}
 
@@ -1626,11 +1628,19 @@
 /* Banner */
 
 	#banner {
+		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))', 'url("https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/banner.jpg")'));
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		cursor: default;
+		// pretty sure i added all
 		height: 100vh !important;
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		// to here
+		
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -1868,13 +1878,13 @@
 		}
 	}
 
-	body.is-mobile {
-		#main {
-			> header {
-				background-attachment: scroll;
-			}
-		}
-	}
+	// body.is-mobile {
+	// 	#main {
+	// 		> header {
+	// 			background-attachment: scroll;
+	// 		}
+	// 	}
+	// }
 
 /* Footer */
 
@@ -1955,6 +1965,11 @@
 			background-size: cover;
 			padding-top: 0;
 		}
+		// @media screen and (max-width:767px){
+		// 	#page-wrapper {
+		// 	  background-size: 10vw 10vh;
+		// 	}
+		//   }
 
 		#footer {
 			background-color: darken(transparentize(_palette(bg), 0.1), 8);
