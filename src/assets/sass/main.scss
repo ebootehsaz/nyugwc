@@ -1636,7 +1636,7 @@
 
 
 	#banner {
-		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,0))', 'url("../images/banner7.jpg")'));
+		@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,0))', 'url("../images/banner.jpg")'));
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
