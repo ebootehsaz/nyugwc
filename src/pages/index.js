@@ -4,10 +4,13 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+const pic1 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic01.jpg';
+const pic2 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic02.jpg';
+const pic3 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic03.jpg';
+const pic4 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic04.jpg';
+const pic5 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic05.jpg';
 import config from '../../config';
+
 
 
 const IndexPage = () => (
@@ -105,7 +108,7 @@ const IndexPage = () => (
 
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic5} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -139,7 +142,7 @@ const IndexPage = () => (
 
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic4} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -156,7 +159,7 @@ const IndexPage = () => (
 
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic5} alt="" />
         </div>
         <div className="content">
           <h2>

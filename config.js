@@ -31,4 +31,7 @@ module.exports = {
       url: 'mailto:test@example.com',
     },
   ],
+  env: {
+    PUBLIC_URL: 'https://ebootehsaz.github.io/nyugwc/',
+  },
 };

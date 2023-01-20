@@ -2,13 +2,17 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+
+
+pic1 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic01.jpg';
+pic2 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic02.jpg';
+pic3 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic03.jpg';
+pic4 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic04.jpg';
+pic5 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic05.jpg';
+
 // import banner from '../assets/images/banner.jpg';
-import banner from '../assets/images/arc.jpeg';
+banner = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/arc.jpeg';
+
 const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
