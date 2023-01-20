@@ -4,11 +4,13 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
+import pic1 from '../assets/images/college_loops_logo.png';
+import pic2 from '../assets/images/december_event.jpeg';
+import pic3 from '../assets/images/panel.jpg';
+import pic4 from '../assets/images/python.jpg';
 import pic5 from '../assets/images/pic05.jpg';
+import pic6 from '../assets/images/pic05.jpg';
+
 
 // import config from 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/config.js';
 import config from '../../config';
@@ -110,7 +112,7 @@ const IndexPage = () => (
 
       <section className="spotlight">
         <div className="image">
-          <img src={pic5} alt="" />
+          <img src={pic3} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -127,7 +129,7 @@ const IndexPage = () => (
 
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic4} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -144,7 +146,7 @@ const IndexPage = () => (
 
       <section className="spotlight">
         <div className="image">
-          <img src={pic4} alt="" />
+          <img src={pic5} alt="" />
         </div>
         <div className="content">
           <h2>
@@ -161,7 +163,7 @@ const IndexPage = () => (
 
       <section className="spotlight">
         <div className="image">
-          <img src={pic5} alt="" />
+          <img src={pic6} alt="" />
         </div>
         <div className="content">
           <h2>
