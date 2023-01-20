@@ -2058,11 +2058,12 @@
 	}
 
 	#setMaxWidth1 {
+		.image {
 		max-width: 25em;
+		}
 	}
 
 	.icon, Link {
-		
 		display: inline-block;
 	}
 
