@@ -9,6 +9,8 @@ const pic2 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/asset
 const pic3 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic03.jpg';
 const pic4 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic04.jpg';
 const pic5 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic05.jpg';
+
+// import config from 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/config.js';
 import config from '../../config';
 
 

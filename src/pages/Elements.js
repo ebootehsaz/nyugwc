@@ -4,14 +4,14 @@ import Layout from '../components/Layout';
 
 
 
-pic1 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic01.jpg';
-pic2 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic02.jpg';
-pic3 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic03.jpg';
-pic4 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic04.jpg';
-pic5 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic05.jpg';
+const pic1 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic01.jpg';
+const pic2 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic02.jpg';
+const pic3 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic03.jpg';
+const pic4 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic04.jpg';
+const pic5 = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/pic05.jpg';
 
 // import banner from '../assets/images/banner.jpg';
-banner = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/arc.jpeg';
+const banner = 'https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/arc.jpeg';
 
 const IndexPage = () => <Layout>
 	<article id="main">
