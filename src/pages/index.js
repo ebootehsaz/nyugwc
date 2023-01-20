@@ -79,7 +79,7 @@ const IndexPage = () => (
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
-        <div className="image">
+        <div className="image" style={{paddingTop: 5 + 'em'}}>
           <img src={pic1} alt="" />
         </div>
         <div className="content">

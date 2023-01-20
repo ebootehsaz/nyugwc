@@ -62,7 +62,7 @@ const IndexPage = () => (
           <h4 style={{paddingBottom: 1 + 'em'}}>2022-2023</h4>
 
       
-
+      <div id="setMaxWidth1">
       <section className="wrapper alt style2" id="addBorderRadius">
         
         <section className="spotlight" id="one">
@@ -179,6 +179,7 @@ const IndexPage = () => (
         </section>
 
       </section>
+      </div>
 
       </div>
       </section>    
