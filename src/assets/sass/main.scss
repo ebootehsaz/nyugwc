@@ -1351,18 +1351,18 @@
 			input[type="reset"],
 			input[type="button"],
 			button,
-			// .button {
-			// 	box-shadow: inset 0 0 0 2px _palette($p, border);
-			// 	color: _palette($p, fg-bold);
+			.button {
+				box-shadow: inset 0 0 0 2px _palette($p, border);
+				color: _palette($p, fg-bold);
 
-			// 	&:hover {
-			// 		background-color: _palette($p, border-bg);
-			// 	}
+				&:hover {
+					background-color: _palette($p, border-bg);
+				}
 
-			// 	&:active {
-			// 		background-color: _palette($p, border2-bg);
-			// 	}
-			// }
+				&:active {
+					background-color: _palette($p, border2-bg);
+				}
+			}
 
 		// Features
 
@@ -1980,11 +1980,6 @@
 			background-size: cover;
 			padding-top: 0;
 		}
-		// @media screen and (max-width:767px){
-		// 	#page-wrapper {
-		// 	  background-size: 10vw 10vh;
-		// 	}
-		//   }
 
 		#footer {
 			background-color: darken(transparentize(_palette(bg), 0.1), 8);
@@ -2084,7 +2079,7 @@
 	// for logo animation
 	// credit: https://uiverse.io/satyamchaudharydev/quick-chicken-50
 #specialButton{
-	margin: 0;
+	margin: 15px;
 	height: auto;
 	background: transparent;
 	padding: 0;
@@ -2106,7 +2101,7 @@
 	position: relative;
 	text-transform: uppercase;
 	color: transparent;
-	-webkit-text-stroke: 1px var(--text-stroke-color);
+	-webkit-text-stroke: 1.2px var(--text-stroke-color);
   }
   /* this is the text, when you hover on button */
   .hover-text {
@@ -2119,11 +2114,11 @@
 	border-right: var(--border-right) solid var(--animation-color);
 	overflow: hidden;
 	transition: 0.5s;
-	-webkit-text-stroke: 1px var(--animation-color);
+	-webkit-text-stroke: 1.5px var(--animation-color);
   }
   /* hover */
   #specialButton:hover .hover-text {
 	width: 100%;
-	filter: drop-shadow(0 0 3px var(--animation-color))
+	filter: drop-shadow(0 0 1px var(--animation-color))
   }
 	

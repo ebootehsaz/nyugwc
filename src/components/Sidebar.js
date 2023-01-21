@@ -9,7 +9,7 @@ export default function SideBar({ fullMenu }) {
   return (
     <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
       <h3 id="logo">
-      <button data-text="Awesome" id="specialButton">
+      <button  id="specialButton">
     <span class="actual-text">&nbsp;NYU GWC&nbsp;</span>
     <span class="hover-text" aria-hidden="true"><Link to="/">&nbsp;NYU GWC&nbsp;</Link></span>
 </button>
