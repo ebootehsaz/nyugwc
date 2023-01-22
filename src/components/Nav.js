@@ -16,25 +16,28 @@ export default function Nav({ onMenuToggle = () => {} }) {
             className="menuToggle">
             <span></span>
           </a>
+          
           <div id="menu">
+          <h3>
             <ul>
               <li>
-                <button  id="specialButton">
+                
+                <div id="specialButton">
                     <span class="actual-text">&nbsp;Home&nbsp;</span>
                     <span class="hover-text" aria-hidden="true"><Link to="/">&nbsp;Home&nbsp;</Link></span>
-                </button>
+                </div>
               </li>
               <li>
-                <button  id="specialButton">
+                <div id="specialButton">
                     <span class="actual-text">&nbsp;E-Board&nbsp;</span>
                     <span class="hover-text" aria-hidden="true"><Link to="/eboard">&nbsp;E-Board&nbsp;</Link></span>
-                </button>
+                </div>
               </li>
               <li>
-                <button  id="specialButton">
+                <div id="specialButton">
                     <span class="actual-text">&nbsp;Events&nbsp;</span>
                     <span class="hover-text" aria-hidden="true"><Link to="/events">&nbsp;Events&nbsp;</Link></span>
-                </button>
+                </div>
               </li>
 
               {/* <li>
@@ -42,6 +45,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               </li> */}
 
             </ul>
+            </h3>
             <a
               className="close"
               onClick={e => {

@@ -9,10 +9,10 @@ export default function SideBar({ fullMenu }) {
   return (
     <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
       <h3 id="logo">
-      <button  id="specialButton">
-    <span class="actual-text">&nbsp;NYU GWC&nbsp;</span>
-    <span class="hover-text" aria-hidden="true"><Link to="/">&nbsp;NYU GWC&nbsp;</Link></span>
-</button>
+      <div  id="specialButton">
+    <span class="actual-text">&nbsp;NYU&nbsp;GWC&nbsp;</span>
+    <span class="hover-text" aria-hidden="true"><Link to="/">&nbsp;NYU&nbsp;GWC&nbsp;</Link></span>
+</div>
         {/* <Link to="/">&nbsp;NYU GWC</Link> */}
         {/* <span style={{display: 'flex'}} className="icon fa-gem minor style5"></span> */}
       </h3>

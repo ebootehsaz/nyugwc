@@ -2079,11 +2079,22 @@
 	// for logo animation
 	// credit: https://uiverse.io/satyamchaudharydev/quick-chicken-50
 #specialButton{
-	margin: 15px;
+	margin-left: 15px;
+	// padding-right: 15px;
 	height: auto;
 	background: transparent;
 	padding: 0;
 	border: none !important;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+
+	&.fit {
+			width: 100%;
+	}
+
   }
   
   /* button styling */
