@@ -41,8 +41,9 @@ const IndexPage = () => <Layout fullMenu>
 					</form> */}
 
                     {/* <div align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSetu3RWi2hGdqgTKFr1p7yE0aFwqmgU16Eh5ME1YW1Oz3Htkg/viewform?embedded=true" display="block" width="640" height="674" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div> */}
-                    
-
+                    <div align="center">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdz8HgmOch9Bnm2Jm3h-48FOmzwsW3Q71MC970MlVqsa8wuFQ/viewform?embedded=true" width="640" height="708" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
 				</section>
             </div>
         </section>
