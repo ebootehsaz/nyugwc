@@ -27,18 +27,28 @@ export default function Nav({ onMenuToggle = () => {} }) {
                     <span class="hover-text" aria-hidden="true"><Link to="/">&nbsp;Home&nbsp;</Link></span>
                 </div>
               </li>
+
               <li>
-                <div id="specialButton">
+                <div id="specialButton" class="color1">
                     <span class="actual-text">&nbsp;E-Board&nbsp;</span>
                     <span class="hover-text" aria-hidden="true"><Link to="/eboard">&nbsp;E-Board&nbsp;</Link></span>
                 </div>
               </li>
+
               <li>
-                <div id="specialButton">
+                <div id="specialButton" class="color2">
                     <span class="actual-text">&nbsp;Events&nbsp;</span>
                     <span class="hover-text" aria-hidden="true"><Link to="/events">&nbsp;Events&nbsp;</Link></span>
                 </div>
               </li>
+
+              <li>
+                <div id="specialButton" class="color3">
+                    <span class="actual-text">&nbsp;Get Involved&nbsp;</span>
+                    <span class="hover-text" aria-hidden="true"><Link to="/involved">&nbsp;Get Involved&nbsp;</Link></span>
+                </div>
+              </li>
+
 
               {/* <li>
                 <Link to="/Elements">Extra Elements</Link>

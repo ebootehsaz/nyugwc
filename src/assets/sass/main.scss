@@ -1844,6 +1844,7 @@
 
 /* Main */
 
+
 	#main {
 		> header {
 			@include padding(12em, 0);
@@ -1853,6 +1854,8 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
+
+			
 
 			h2 {
 				font-size: 1.75em;
@@ -2078,6 +2081,19 @@
 	/* === removing default button style ===*/
 	// for logo animation
 	// credit: https://uiverse.io/satyamchaudharydev/quick-chicken-50
+
+.color1 { 
+	--animation-color: #00d9ff !important;
+}
+
+.color2 { 
+	--animation-color: #5fff33 !important;
+}
+
+.color3 { 
+	--animation-color: #ffe600 !important;
+}
+
 #specialButton{
 	margin-left: 15px;
 	// padding-right: 15px;
@@ -2133,3 +2149,24 @@
 	filter: drop-shadow(0 0 1px var(--animation-color))
   }
 	
+
+
+  #involved {
+	@include padding(12em, 0);
+	@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0.7))', 'url("https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/banner3.jpg")'));
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#events {
+	@include padding(12em, 0);
+	@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.9), rgba(0,0,0,0.8))', 'url("https://raw.githubusercontent.com/ebootehsaz/nyugwc/main/src/assets/images/banner7.jpg")'));
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}

@@ -11,7 +11,7 @@ import pic5 from '../assets/images/pic05.jpg';
 import banner from '../assets/images/arc.jpeg';
 
 
-const IndexPage = () => <Layout>
+const IndexPage = () => <Layout fullMenu>
 	<article id="main">
 		<header>
 			<h2>Elements</h2>

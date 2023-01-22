@@ -13,12 +13,12 @@ import banner from '../assets/images/barcode.jpg';
 
 
 const IndexPage = () => <Layout fullMenu>
-<article id="main">
-    <header>
+<article>
+    <header id="events">
         <h2>Events</h2>
         <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
     </header>
-    <section className="wrapper style4">
+    <section className="wrapper style1">
         <div className="inner">
 
             <section>
