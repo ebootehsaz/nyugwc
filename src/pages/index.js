@@ -59,7 +59,7 @@ const IndexPage = () => (
         
         <ul className="icons major">
           <li>
-            <span className="icon fa-gem major style4">
+            <span className="icon fa-gem major style2">
               <span className="label">Lorem</span>
             </span>
           </li>
@@ -69,7 +69,7 @@ const IndexPage = () => (
             </span>
           </li>
           <li>
-            <span className="icon solid fa-code major style4">
+            <span className="icon fa-gem major style2">
               <span className="label">Dolor</span>
             </span>
           </li>

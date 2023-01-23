@@ -1296,7 +1296,8 @@
 
 			.icon {
 				&.major {
-					border-color: solid white;// _palette($p, border);
+					border-color:  _palette($p, border);
+					// border-color: solid white;
 				}
 			}
 
