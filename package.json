@@ -1,16 +1,15 @@
 {
-  "name": "gatsby-starter-spectral",
+  "name": "New York University Girls Who Code",
   "homepage": "https://ebootehsaz.github.io/gwc",
   "version": "0.0.2",
 
-  "description": "Gatsby.js V4 starter template based on Spectral by HTML5 UP",
+  "description": "New York University's College Loops Girls Who Code",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-spectral.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Ethan Bootehsaz"
   },
   "dependencies": {
     "gatsby": "^4.2.0",
