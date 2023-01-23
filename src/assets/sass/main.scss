@@ -1665,11 +1665,16 @@
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 1.85em;
+			font-size: 1.65em;
 			opacity: 1;
-			padding: 0.35em 1em;
+			padding: 0.25em 1em;
+			padding-top: .35em;
 			position: relative;
 			z-index: 1;
+
+			@include breakpoint('<=medium') {
+				font-size: 1.35em;
+			}
 
 			&:before, &:after {
 				@include vendor('transition', 'width 1.15s ease');
