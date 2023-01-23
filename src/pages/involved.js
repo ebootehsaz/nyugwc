@@ -17,7 +17,7 @@ const IndexPage = () => <Layout fullMenu>
 			<p>Get notified of future events!</p>
 		</header>
 
-		<section className="wrapper style1">
+		<section className="wrapper style3">
 			<div className="inner">
                 <section>
 					{/* <h4>Form</h4>
