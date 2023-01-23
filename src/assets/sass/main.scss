@@ -14,6 +14,7 @@
 
 	Notes for future peeps:
 	You can modify the home page banner on line 1635
+	irregulairty line 1298
 
 */
 
@@ -1295,7 +1296,7 @@
 
 			.icon {
 				&.major {
-					border-color: _palette($p, border);
+					border-color: solid white;// _palette($p, border);
 				}
 			}
 
