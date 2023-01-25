@@ -2,7 +2,6 @@
   "name": "New York University Girls Who Code",
   "homepage": "https://ebootehsaz.github.io/gwc",
   "version": "0.0.2",
-
   "description": "New York University's College Loops Girls Who Code",
   "repository": {
     "type": "git",
@@ -30,7 +29,7 @@
     "develop": "gatsby develop",
     "build": "npm run clean && gatsby build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",
     "clean": "rimraf .cache public",
     "format": "prettier --write '**/*.js'",

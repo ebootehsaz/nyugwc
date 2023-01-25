@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#000000',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: ``, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `nyugwc`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Girls Who Code',
   subHeading: 'NYU College Loops',
   // social
