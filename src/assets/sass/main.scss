@@ -1147,12 +1147,12 @@
 				// padding-left: auto;
 				// padding-right: auto;
 			}
-			padding-bottom: 100px;
+			padding-bottom: 50px;
 			
 
 
 			.content {
-				@include padding(4em, 3em);
+				@include padding(1em, 1em);
 				max-width: none;
 				text-align: center;
 				width: 100%;
@@ -1161,7 +1161,7 @@
 
 		@include breakpoint('<=small') {
 			.content {
-				@include padding(3em, 2em);
+				@include padding(0.5em, 0em);
 			}
 		}
 	}
@@ -2221,8 +2221,9 @@
 			  0 100%);
 	transition: color 250ms;
 	// width: 200%;
-	width: 400px;
+	// width: 300px;
 	// height: 60px;
+	
   }
   
   .btn::after,

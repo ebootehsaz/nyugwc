@@ -79,7 +79,7 @@ const IndexPage = () => (
 
     {/* <div id="setMaxWidth1"> */}
     <div className='smallerImages'>
-    <section id="two" className="wrapper alt style2">
+    <section className="wrapper alt style2" id="addBorderRadius">
       <section className="spotlight" style={{paddingTop: 3 + 'em'}}>
       {/* <section className="spotlight" > */}
         <div className="image" style={{maxWidth: 400 + 'px'}}>
@@ -186,13 +186,14 @@ const IndexPage = () => (
     </section>
     </div>
 
-    <div class="centerH" style={{paddingTop: 2 + "em"}} >
-    <a href="/involved">
-      <button class="btn">
-        <h2 style={{margin: 0}} >GET INVOLVED</h2>
-      </button>
-      </a>
-    </div>
+    <section className="wrapper style1 special">
+      <a href="/involved">
+        <button class="btn">
+          <h2 style={{margin: 0}} >GET INVOLVED</h2>
+        </button>
+        </a>
+    </section>
+    
 
   </Layout>
 );
