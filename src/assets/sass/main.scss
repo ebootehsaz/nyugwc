@@ -1074,36 +1074,12 @@
 	}
 
 /* Spotlight */
-	#page2imagemods {
-		padding-top: 10px;
-		padding-bottom: 50px;
-		// min-padding-left: 10%;
-		// padding-right: 5%;
-
-		margin: 0 auto;
-		
-		.image {
-			// max-width: 30vh;
-			margin: 0 auto;
-
-			img {
-				border-radius: 30px;
-				}
-		}
-		
-		.spotlight {
-			max-width: 900px;
-		}
-	}
 
 	.spotlight {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
-		margin: 0 auto;
-		// align-items: center;
-		// padding-top: 5%;
-		// margin-left: 10%;
-		// margin-right: 10%;
+		// margin: auto auto;
+		margin: 0;
 		// margin-bottom: 5%;
 		
 		
@@ -1111,13 +1087,18 @@
 		.image {
 			@include vendor('order', '1');
 			@include vendor('align-items', 'center');
-			// border-radius: 100px;
+			// border-radius: 30px;
 			width: 40%;
+
 
 			img {
 				width: 100%;
 				
 			}
+		}
+
+		&:nth-child(2n) {
+			@include vendor('flex-direction', 'row-reverse');
 		}
 
 		.content {
@@ -1129,9 +1110,8 @@
 			
 		}
 
-		&:nth-child(2n) {
-			@include vendor('flex-direction', 'row-reverse');
-		}
+
+
 
 		@for $i from 1 through _misc(max-spotlights) {
 			$j: 0.075 * $i;
@@ -1160,8 +1140,9 @@
 
 			.image {
 				width: 100%;
-				padding-left: 30px;
-				padding-right: 30px;
+				left: 50%;
+				-ms-transform: translate(-50%);
+				transform: translate(-50%);
 
 				// padding-left: auto;
 				// padding-right: auto;
@@ -1640,6 +1621,7 @@
 
 	#banner {
 		// @include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.7), rgba(0,0,0,0))', 'url("../images/banner.jpg")'));
+		@include vendor('background-color', '#57068c');
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
@@ -1856,6 +1838,7 @@
 		> header {
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))', 'url("../images/banner.jpg")'));
+			@include vendor('background-color', '#57068c');
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1983,7 +1966,7 @@
 
 	body.landing, .main-body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.4), rgba(0,0,0,1))', 'url("../images/banner.jpg")'));
+			// @include vendor('background-image', ('linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.4), rgba(0,0,0,1))', 'url("../images/banner.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1999,7 +1982,8 @@
 	@include breakpoint('<=medium') {
 		body.landing, .main-body.landing {
 			#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,.2))', 'url("../images/nyu.jpg")'));
+			// @include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,.2))', 'url("../images/nyu.jpg")'));
+			// @include vendor('background-color', '#57068c');
 			// background-attachment: fixed;
 			background-position: center center;
 			background-repeat: repeat;
@@ -2173,7 +2157,9 @@
 
   #involved {
 	@include padding(12em, 0);
-	@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0.7))', 'url(""../images/banner3.jpg")'));
+	// @include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,1), rgba(0,0,0,0.7))', 'url(""../images/banner3.jpg")'));
+	@include vendor('background-color', '#57068c');
+
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -2183,10 +2169,170 @@
 
 #events {
 	@include padding(12em, 0);
-	@include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.9), rgba(0,0,0,0.8))', 'url(""../images/banner7.jpg")'));
+	// @include vendor('background-image', ('linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,.9), rgba(0,0,0,0.8))', 'url(""../images/banner7.jpg")'));
+	@include vendor('background-color', '#57068c');
 	background-attachment: fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+// https://uiverse.io/kleenpulse/dangerous-horse-41
+.btn {
+	--border-color: linear-gradient(-45deg, #57068c, #8900e1, #000000);
+	--border-width: .125em;
+	--curve-size: .5em;
+	--blur: 30px;
+	--bg: #080312;
+	--color: #afffff;
+	color: var(--color);
+	  /* use position: relative; so that BG is only for .btn */
+	position: relative;
+	isolation: isolate;
+	display: inline-grid;
+	place-content: center;
+	padding: .5em 1.5em;
+	font-size: 17px;
+	border: 0;
+	text-transform: uppercase;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+	clip-path: polygon(
+			  /* Top-left */
+			  0% var(--curve-size),
+  
+			  var(--curve-size) 0,
+			  /* top-right */
+			  100% 0,
+			  100% calc(100% - var(--curve-size)),
+  
+			  /* bottom-right 1 */
+			  calc(100% - var(--curve-size)) 100%,
+			  /* bottom-right 2 */
+			  0 100%);
+	transition: color 250ms;
+	// width: 200%;
+	width: 400px;
+	// height: 60px;
+  }
+  
+  .btn::after,
+  .btn::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+  }
+  
+  .btn::before {
+	background: var(--border-color);
+	background-size: 300% 300%;
+	animation: move-bg7234 5s ease infinite;
+	z-index: -2;
+  }
+  
+  @keyframes move-bg7234 {
+	0% {
+	  background-position: 31% 0%
+	}
+  
+	50% {
+	  background-position: 70% 100%
+	}
+  
+	100% {
+	  background-position: 31% 0%
+	}
+  }
+  
+  .btn::after {
+	background: var(--bg);
+	z-index: -1;
+	clip-path: polygon(
+			  /* Top-left */
+			  var(--border-width) 
+			  calc(var(--curve-size) + var(--border-width) * .5),
+  
+			  calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+  
+			  /* top-right */
+			  calc(100% - var(--border-width)) 
+			  var(--border-width),
+  
+			  calc(100% - var(--border-width)) 
+			  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+  
+			  /* bottom-right 1 */
+			  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+			  /* bottom-right 2 */
+			  var(--border-width) calc(100% - var(--border-width)));
+	transition: clip-path 500ms;
+  }
+  
+  .btn:where(:hover, :focus)::after {
+	clip-path: polygon(
+				  /* Top-left */
+				  calc(100% - var(--border-width)) 
+  
+				  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+	  
+				  calc(100% - var(--border-width))
+  
+				  var(--border-width),
+	  
+				  /* top-right */
+				  calc(100% - var(--border-width))
+  
+				   var(--border-width),
+	  
+				  calc(100% - var(--border-width)) 
+  
+				  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+	  
+				  /* bottom-right 1 */
+				  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+				  calc(100% - var(--border-width)),
+  
+				  /* bottom-right 2 */
+				  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+				  calc(100% - var(--border-width)));
+	transition: 200ms;
+  }
+  
+  .btn:where(:hover, :focus) {
+	color: #fff;
+  }
+
+
+
+
+  .centerH {
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	-ms-transform: translate(-50%);
+	transform: translate(-50%);
+  }
+
+  .center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
+
+  .smallerImages {
+	padding-left: 10%;
+	padding-right: 10%;
+
+  }

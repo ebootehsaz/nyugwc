@@ -6,9 +6,9 @@ import pic1 from '../assets/images/interview.jpg';
 import pic2 from '../assets/images/school.jpg';
 import pic3 from '../assets/images/tech.jpg';
 import pic4 from '../assets/images/stress.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+// import pic5 from '../assets/images/pic05.jpg';
 // import banner from '../assets/images/banner.jpg';
-import banner from '../assets/images/barcode.jpg';
+// import banner from '../assets/images/barcode.jpg';
 
 
 
@@ -16,7 +16,7 @@ const IndexPage = () => <Layout fullMenu>
 <article>
     <header id="events">
         <h2>Events</h2>
-        <p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+        <p>Posters of our previous events</p>
     </header>
     <section className="wrapper style1">
         <div className="inner">
@@ -33,7 +33,7 @@ const IndexPage = () => <Layout fullMenu>
                         <div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
                         <div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
                         <div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-                        <div className="col-12"><span className="image fit"><img src={banner} alt="" /></span></div>
+                        {/* <div className="col-12"><span className="image fit"><img src={banner} alt="" /></span></div> */}
                     </div>
                 </div>
             </section>

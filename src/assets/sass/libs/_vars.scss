@@ -34,7 +34,7 @@
 		bg:					#000000, // menu bar color
 		fg:					#fff,
 		fg-bold:			#fff,
-		fg-light:			rgba(110, 110, 110, 0.5),
+		fg-light:			rgba(255, 255, 255, 0.75),
 		border:				#fff,
 		border-bg:			rgba(61, 61, 61, 0.25),
 		border2:			#fff,
@@ -45,7 +45,7 @@
 			fg-bold:		#ffffff,
 			fg:				mix(#ffffff, #ffffff, 25%),
 			fg-light:		mix(#8a8a8a, #ffffff, 40%),
-			border:			rgb(94, 0, 235),
+			border:			#57068c,
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
 			border2-bg:		rgba(255,255,255,0.2)
@@ -63,10 +63,10 @@
 		),
 
 		accent3: (
-			bg:				#00f0ff,
+			bg:				#ffffff,
 			fg-bold:		#ffffff,
-			fg:				mix(#00f0ff, #ffffff, 25%),
-			fg-light:		mix(#00f0ff, #ffffff, 40%),
+			fg:				mix(#ffffff, #ffffff, 25%),
+			fg-light:		mix(#ffffff, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -74,10 +74,10 @@
 		),
 
 		accent4: (
-			bg:				#ff76f6,
+			bg:				#57068c,
 			fg-bold:		#ffffff,
-			fg:				mix(#ff76e4, #ffffff, 25%),
-			fg-light:		mix(#ff76f6, #ffffff, 40%),
+			fg:				mix(#57068c, #ffffff, 25%),
+			fg-light:		mix(#57068c, #ffffff, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
