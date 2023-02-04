@@ -16,7 +16,6 @@ const IndexPage = () => <Layout fullMenu>
 			<h2>Get Involved</h2>
 			<p>Get notified of future events!</p>
 		</header>
-
 		<section className="wrapper style3">
 			<div className="inner">
                 <section>
