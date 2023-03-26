@@ -2,7 +2,7 @@
 
 website
 
-https://nyugwcmain.gatsbyjs.io/
+https://nyugwc.gatsbyjs.io/
 
 ## Install
 
